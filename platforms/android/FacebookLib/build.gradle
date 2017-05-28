@@ -5,9 +5,9 @@ repositories {
 }
 
 project.group = 'com.facebook.android'
-ANDROID_BUILD_TARGET_SDK_VERSION=19
-ANDROID_BUILD_TOOLS_VERSION=19
-ANDROID_BUILD_SDK_VERSION=19
+project.ANDROID_BUILD_TARGET_SDK_VERSION=19
+project.ANDROID_BUILD_TOOLS_VERSION=19
+project.ANDROID_BUILD_SDK_VERSION=19
 
 dependencies {
     compile 'com.android.support:support-v4:[20,21)'
